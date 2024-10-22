@@ -17,7 +17,6 @@ before:
 #    - sudo apt-get install -y aarch64-linux-gnu-g++
 #    - sudo apt-get install -y arm-linux-gnueabihf-gcc
 #    - sudo apt-get install -y arm-linux-gnueabihf-g++
-
 builds:
   - id: linux-amd64-build
     env:
