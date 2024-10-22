@@ -50,7 +50,7 @@ func SkipFileInfo(l *logrus.Logger, curFile os.DirEntry, fileFullPath string) bo
 			//}
 		} else {
 			l.Debugln("curFile.Size() < 1000:", curFile.Name())
-			return true
+			return false;
 		}
 	}
 
